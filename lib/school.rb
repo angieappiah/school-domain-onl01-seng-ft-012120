@@ -3,7 +3,7 @@ class School
     @model= model
   end
   def
-  school = school.new("Bayside_High_School")
+  school= school.new("Bayside_High_School")
   Bayside_High_School.model
 end
     
