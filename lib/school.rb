@@ -1,9 +1,32 @@
 class School
-  def initialize (model)
-    @model= model
+  def initialize (name)
+    @name= name
+    @roster = {}
   end
+  def roster
+    @roster
+  end
+  
+  def add_student(name,grade)
+    @student_name = name
+    @grade = grade
+    if @roster[grade] ==true
+      @roster[grade]<< student_name
+      @roster = { 9 =>[AC Slatter]
+    end
+    def add_student (student_name, grade)
+      if @roster [grade]
+        @roster[grade] << student_name
+      else
+        @roster[grade] = []
+        @roster[grade] << student_name
+      end
+      
+    end
+    
+    
+  end
+  
   def
-  school= school.new("Bayside_High_School")
-  Bayside_High_School.model
-end
+  
     
