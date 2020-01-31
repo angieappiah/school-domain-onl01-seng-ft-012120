@@ -4,6 +4,6 @@ class School
   end
   def
   school = school.new("Bayside_High_School")
-  Bayside_High_School= school.new("Bayside_High_School")
+  Bayside_High_School.model
 end
     
