@@ -14,12 +14,18 @@ class School
       @roster[grade]<< student_name
       @roster = { 9 =>[AC Slatter]
     end
+    
     def add_student (student_name, grade)
       if @roster [grade]
         @roster[grade] << student_name
       else
         @roster[grade] = []
         @roster[grade] << student_name
+      end
+      
+      def initialize(school_name)
+        @school_name = school_name
+        @roster = Hash.new {|h,k| h[k] = []}
       end
       
     end
